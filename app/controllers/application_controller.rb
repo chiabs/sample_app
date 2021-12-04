@@ -1,7 +1,8 @@
 class ApplicationController < ActionController::Base
   
   def hello
-    render html: "hello people"
+    puts("TEST HEllo")
+    render html: "hello, world :)))"
   end
   
 end
